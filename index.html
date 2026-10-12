@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un rinconcito para ti ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div id="hearts-container"></div>
+
+    <header class="navbar">
+        <a href="#inicio" class="logo">♡ para ti</a>
+
+        <button id="musicButton" class="music-button">
+            ♫ Nuestra música
+        </button>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero" id="inicio">
+
+            <span class="decoration star">✧</span>
+            <span class="decoration bow">୨୧</span>
+
+            <p class="eyebrow">
+                ✦   ✦
+            </p>
+
+            <h1>
+                Un rinconcito<br>
+                <em>para ti</em> ♡
+            </h1>
+
+            <p class="subtitle">
+                Hice este pequeño sitio pensando en tí<br>
+                Espero que te guste.
+            </p>
+
+            <button class="primary-button" id="surpriseButton">
+                Abrir mi sorpresa ♡
+            </button>
+
+            <p class="scroll-text">
+                DESLIZA PARA DESCUBRIR MÁS ↓
+            </p>
+
+        </section>
+
+
+        <!-- CARTA -->
+        <section class="section" id="carta">
+
+            <p class="section-label"> CON CARIÑO</p>
+
+            <h2>Una cartita <em>para ti</em></h2>
+
+            <p class="section-description">
+                Hay algo que tienes que recordarlo siempre...
+            </p>
+
+            <button class="letter" id="letterButton">
+                <span class="letter-icon">💌</span>
+
+                <span class="letter-title">
+                    Tienes una cartita
+                </span>
+
+                <span class="letter-description">
+                    Pulsa aquí para abrirla ♡
+                </span>
+            </button>
+
+            <div class="letter-content hidden" id="letterContent">
+
+                <h3>Te amo, lo sabes, no? ♡</h3>
+
+                <p>
+                    El propósito de este pequeño detallito es para que tengas presente 
+                    que te pienso más de lo que tu crees, 
+                    algo que demuestre mi amor tan intenso por tí y que no se trate
+                    simplemente de un mensaje más.
+                </p>
+
+                <p>
+                    Por eso hice este pequeño rinconcito para tí
+                    para que siempre que lo abras recuerdes lo mucho
+                    que disfruto compartir mis días contigo.
+                </p>
+
+                <p>
+                    Ojalá pudiera estar a tu lado en cada momento bonito
+                    y darte abrazos y besos siempre que los necesites.
+                </p>
+
+                <p class="signature">
+                    Con mucho cariño,
+                    tu "🐱" AJAJJDJAD ♡<br>
+                    para: mi sardinita ♡
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- TARJETAS INTERACTIVAS -->
+        <section class="section" id="momentos">
+
+            <p class="section-label">PEQUEÑOS DETALLES</p>
+
+            <h2>Cositas que quiero <em>decirte</em></h2>
+
+            <p class="section-description">
+                Elige una tarjetita y descubre su mensaje.
+            </p>
+
+            <div class="cards-container">
+
+                <button
+                    class="memory-card pink"
+                    data-title="Algo bonito"
+                    data-message="Me gusta tenerte en mi día a día. Gracias por compartir un pedacito de tu mundo conmigo. ♡">
+
+                    <span class="card-emoji">☁️</span>
+                    <span class="card-number"> MENSAJE</span>
+                    <strong>Un ratito contigo</strong>
+                    <span class="card-link">Descubrir ♡</span>
+
+                </button>
+
+
+                <button
+                    class="memory-card lilac"
+                    data-title="Absolutamente todo........."
+                    data-message="llamemoslo algo indescriptible, me tomaría un día entero mencionando cada cosita que me gusta de tí mi vida✿">
+
+                    <span class="card-emoji">🦋</span>
+                    <span class="card-number"> DETALLE</span>
+                    <strong>Cosas que me gustan de tí</strong>
+                    <span class="card-link">Descubrir ♡</span>
+
+                </button>
+
+
+                <button
+                    class="memory-card cream"
+                    data-title="Un abrazo de aquí hasta allá donde estés"
+                    data-message="Si sientes que necesitas un abrazo, imagina que te estoy dando uno enorme rodeando todo tu cuerpo, entrelazándonos con mucho cariño. Todo estará bien, pasito a pasito como dices JJADJAS ✿">
+
+                    <span class="card-emoji">🎀</span>
+                    <span class="card-number"> HUG</span>
+                    <strong>hug me</strong>
+                    <span class="card-link">Descubrir ♡</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- SORPRESA -->
+        <section class="section surprise-section" id="sorpresa">
+
+            <div class="surprise-box">
+
+                <span class="surprise-decoration">✧ ♡ ✧</span>
+
+                <p class="section-label">UNA SORPRESITA</p>
+
+                <h2>¿Quieres saber <em>algo?</em></h2>
+
+                <p class="section-description">
+                    Tengo un mensajito escondido para ti.
+                </p>
+
+                <button class="secondary-button" id="revealButton">
+                    Sí, quiero saber 🎀
+                </button>
+
+                <div class="hidden revealed-message" id="revealedMessage">
+
+                    <span class="big-heart">♥</span>
+
+                    <p>
+                        Qué bonito que nuestros caminos se hayan cruzado, estoy muy agradecido con la vida por haberme permitido conocerte.
+                        Y qué bonito es poder crear muchos recuerdos contigo ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL -->
+        <section class="section final-section">
+
+            <span class="flower">✿</span>
+
+            <h2>Esto es solo <em>el comienzo...</em></h2>
+
+            <p class="section-description">
+               me vencen las ganas de estar a tu lado y mirarte un sin fin de veces para recordarte lo mucho que me encantas...
+            </p>
+
+            <button id="backButton" class="text-button">
+                Volver al inicio ↑
+            </button>
+
+            <p class="footer-signature">
+                hecho con ♡, solo para ti
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- VENTANA PARA LOS MENSAJES -->
+    <dialog id="messageDialog" class="message-dialog">
+
+        <button id="closeDialog" class="close-button">×</button>
+
+        <span class="dialog-heart">♡</span>
+
+        <h3 id="dialogTitle">Un mensajito</h3>
+
+        <p id="dialogMessage"></p>
+
+        <button id="okButton" class="primary-button">
+            Awww ♡
+        </button>
+
+    </dialog>
+
+
+
+<audio id="backgroundMusic" loop>
+    <source src="assets/Nuestra-musica.mp3" type="audio/mpeg">
+</audio>
+
+
+
+</body>
+</html>
